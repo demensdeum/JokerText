@@ -3,9 +3,10 @@ function capitalizeFirstLowerSecond(input) {
     // return output;
 
     var output = "";
-    // for (var i = 0; i < input.length; i++) {
-    //     var code = input.charCodeAt(i);
-    //     var char = input.fromCharCode(code);
+    for (var i = 0; i < input.length; i++) {
+        var code = input.charCodeAt(i);
+        output += code;
+        //var char = input.fromCharCode(code);
 
         // if (i % 2 === 0) {
         //     // Каждую первую букву делаем заглавной
@@ -25,6 +26,7 @@ function capitalizeFirstLowerSecond(input) {
 
 //        output += char;
 //    }
+    }
     return output;
 }
 
