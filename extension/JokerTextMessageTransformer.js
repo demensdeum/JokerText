@@ -22,7 +22,7 @@ function capitalizeFirstLowerSecond(input) {
 
         output += char;
     }
-    return output;
+    return input;
 }
 
 var jokerTextMessageTransformer = function(message) {
