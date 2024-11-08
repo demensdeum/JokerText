@@ -27,6 +27,6 @@ function capitalizeFirstLowerSecond(input) {
 }
 
 var jokerTextMessageTransformer = function(message) {
-    //message = capitalizeFirstLowerSecond(message);
+    message = capitalizeFirstLowerSecond(message);
     return message;
 };
