@@ -5,7 +5,7 @@ function capitalizeFirstLowerSecond(input) {
     var output = "";
     for (var i = 0; i < input.length; i++) {
         var code = input.charCodeAt(i);
-        var char = "".fromCharCode(code);
+        var char = input.fromCharCode(code);
 
         // if (i % 2 === 0) {
         //     // Каждую первую букву делаем заглавной
