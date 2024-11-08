@@ -6,6 +6,7 @@ function capitalizeFirstLowerSecond(input) {
     for (var i = 0; i < input.length; i++) {
         var code = input.charCodeAt(i);
         output += code;
+        output += " ";
         //var char = input.fromCharCode(code);
 
         // if (i % 2 === 0) {
