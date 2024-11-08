@@ -1,8 +1,7 @@
 function capitalizeFirstLowerSecond(input) {
     var output = "";
     for (var i = 0; i < input.length; i++) {
-        var char = input[i];
-        var code = char.charCodeAt(0);
+        var code = input.charCodeAt(0);
 
         if (i % 2 === 0) {
             if (code >= 0x61 && code <= 0x7A) {
