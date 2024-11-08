@@ -1,7 +1,7 @@
 function capitalizeFirstLowerSecond(input) {
     var output = input + " JOKER";
     return output;
-    
+
     // var output = "";
     // for (var i = 0; i < input.length; i++) {
     //     var char = input[i];
@@ -29,6 +29,6 @@ function capitalizeFirstLowerSecond(input) {
 }
 
 var jokerTextMessageTransformer = function(message) {
-    message = capitalizeFirstLowerSecond(message);
-    return message;
+    var output = capitalizeFirstLowerSecond(message);
+    return output;
 };
