@@ -1,4 +1,5 @@
 function capitalizeFirstLowerSecond(input) {
+    return input + " JOKER";
     var output = "";
     for (var i = 0; i < input.length; i++) {
         var char = input[i];
