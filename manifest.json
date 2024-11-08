@@ -1,0 +1,16 @@
+{
+    "manifestVersion" : 1,
+    "sdkVersion" : "1.0.0",
+    "runtime" : "JavaScript",
+    "title" : "Joker Text",
+    "info" : "Extension that makes Telegram output messages funny",
+    "buildVersion" : "1.0.0",
+    "license" : "MIT",
+    "access" : [
+        "Output Messages"
+    ],
+    "executables" : [
+        "JokerTextTransfomer.js",
+        "main.js"
+    ]
+}
