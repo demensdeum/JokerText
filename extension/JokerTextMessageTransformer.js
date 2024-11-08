@@ -1,24 +1,14 @@
 function capitalizeFirstLowerSecond(input) {
     var output = "";
     for (var i = 0; i < input.length; i++) {
-        var code = input.charCodeAt(i);
+        var char = input.charAt(i);
 
         if (i % 2 === 0) {
-            if (code >= 0x61 && code <= 0x7A) {
-                char = String.fromCharCode(code - 32);
-            } else if (code >= 0x430 && code <= 0x44F) {
-                char = String.fromCharCode(code - 32);
-            }
+            output += char.toUpperCase();
         } else {
-            // Каждую вторую букву делаем маленькой
-            if (code >= 0x41 && code <= 0x5A) {
-                char = String.fromCharCode(code + 32);
-            } else if (code >= 0x410 && code <= 0x42F) {
-                char = String.fromCharCode(code + 32);
-            }
+            output += char.toLowerCase();
         }
 
-        output += char;
     }
     return output;
 }
