@@ -14,9 +14,6 @@ function capitalizeFirstLowerSecond(input) {
 }
 
 function makeJoke(input) {
-    // var output = input + " JOKER";
-    // return output;
-
     var output = "";
     
     var jokeType = "JuMp";
