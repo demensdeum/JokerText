@@ -10,7 +10,7 @@
         "Output Messages"
     ],
     "executables" : [
-        "JokerTextTransfomer.js",
+        "JokerTextMessageTransformer.js",
         "main.js"
     ]
 }
